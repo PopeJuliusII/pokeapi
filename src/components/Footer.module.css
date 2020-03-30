@@ -1,0 +1,12 @@
+.fstyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: black;
+    background-image: url(./pokeball.png);
+    background-size: 120px;
+    align-items: center;
+    min-width: 40%;
+    max-width: 100%;
+    height: 120px;
+}

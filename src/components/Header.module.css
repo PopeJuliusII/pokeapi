@@ -1,0 +1,40 @@
+.hstyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: dodgerblue;
+    background-image: url(./pokemonLogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    align-items: center;
+    min-width: 40%;
+    max-width: 100%;
+    height: 200px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: inline;
+  color: yellow;
+  font-family: fantasy;
+  font-weight: 400;
+}
+
+.gelem{
+    width: 90%;
+    height: 40%;
+}
+
+.helem{
+    width: 100%;
+    height: inherit;
+    margin: 20%;
+    font-size: 30px;
+}
+
+.helem:hover{
+    border-bottom: 1px solid;
+}
